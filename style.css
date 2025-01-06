@@ -274,7 +274,7 @@ body{
 
 .main{
     width: 100%;
-    height: 1000px;
+    height: 1800px;
     background-image: url(assets/images/body_bg.png);
 
 }
@@ -291,7 +291,7 @@ body{
     width: 890px;
     height: 800px;
     background-color: #FFFFFF;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-left: auto;
     margin-right:140px;
     display: flex;
@@ -464,4 +464,125 @@ body{
     width: 280px;
     height: 115px;
     background-color: #1B53BA;
+}
+
+.black-box{
+    width: 875px;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin-top: 55px;
+    margin-left: 200px;
+}
+
+.blackbox{
+    width: 252px;
+    height: 45px;
+    /* border: 1px solid red; */
+    margin-top: 4px;
+    margin-left: 7px;
+    background-color: #232323;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-icon{
+    width: 25px;
+    height: 25px;
+    
+    /* border: 1px solid red; */
+}
+
+.bl-icon{
+    width: 25px;
+    height: 25px;
+    color: #919191;
+    padding: 3px;
+}
+
+.black-text{
+    width: 180px;
+    height:30px ;
+    /* border: 1px solid red; */
+}
+
+.black-text>h3{
+    font-size: 20px;
+    color: #919191;
+    padding: 3px;
+}
+
+.carosuel-boxes{
+    width: 1230px;
+    height: 386px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-box1{
+    width: 240px;
+    height: 380px;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+
+
+}
+
+.carbox1-image{
+    width: 240px;
+    height: 250px;
+    /* border: 1px solid red; */
+    background-color: #919191;
+    background-image: url(assets/images/664.png);
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.carbox1-text{
+    width: 240px;
+    height: 130px;
+    /* border: 1px solid red; */
+    background-color: #232323;
+    /* border: 1px solid #444444; */
+}
+
+.carbox1-text>h3{
+    font-size: 22px;
+    color:#FFFFFF;
+    padding-top:20px ;
+    text-align:center;
+    /* padding-top: 20px; */
+    /* margin:  30px 22px; */
+}
+
+.carbox1-image>h3{
+    font-size: 68px;
+    color:#232323;
+    text-align:center;
+    padding-top: 20px;
+    opacity: 0.5;
+}
+
+.carbox2-image{
+    background-image: url(assets/images/281.png);
+    /* opacity: 0.5; */
+}
+
+.carbox3-image{
+    background-image: url(assets/images/498.png);
+    opacity: 1;
+    background-color: #444444;
+}
+
+.carbox4-image{
+    background-image: url(assets/images/422.png);
+}
+
+.carbox5-image{
+    background-image: url(assets/images/376.png);
 }
